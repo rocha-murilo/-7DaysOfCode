@@ -1,0 +1,22 @@
+.dia__today {
+    padding: 0.6em 1em;
+    background-color: var(--branco);
+}
+
+.dia__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.perfil__titulo {
+    color: var(--cinza-escuro);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.perfil__texto {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}

@@ -1,0 +1,27 @@
+@import url("styles/navbarphone.css");
+@import url("styles/cabecalho.css");
+@import url("styles/corpo.css");
+@import url("styles/card.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco: #FFFFFF;
+    --cinza-fundo: #F6F6F6;
+    --cinza-claro: #A3A3A3;
+    --cinza-escuro: #464646;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--cinza-fundo);
+}

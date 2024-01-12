@@ -1,0 +1,20 @@
+.container__home {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__horario {
+    margin: 0.5em 1em;
+}
+
+.cabecalho__horas {
+    font-family: var(--fonte-principal);
+}
+
+.container__simbolos {
+    display: flex;
+    gap: 16px;
+    margin-right: 1.5em;
+}

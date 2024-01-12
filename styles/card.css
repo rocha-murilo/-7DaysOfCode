@@ -1,0 +1,113 @@
+.container__card, .container__card-um-botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card {
+    width: 90vw;
+    height: 45vw;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.container__card__superior {
+    display: flex;
+    margin: 1em 1em;
+    /* justify-content: space-between; */
+    gap: 1em;
+}
+
+.card__superior__dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__status {
+    display: flex;
+    align-items: center;
+    gap: 4.4px;
+}
+
+.imagem__status {
+    width: 16px;
+    height: 10.67px;
+}
+
+.chat__paciente {
+    padding-left: 6em;
+}
+
+/* area dedicada à formatação dos textos do "card.css" */
+
+.nome__paciente {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+
+.status__paciente {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.card__inferior__horario {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.card__inferior__call, .card__inferior__call-botao {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.item1 {
+    color: var(--branco);
+}
+
+.item2 {
+    color: var(--cinza-escuro);
+}
+
+/* fim */
+
+.divisoria__linha {
+    width: 100%;
+}
+
+.card__inferior__dados {
+    margin: 0.4em 1.22em;
+}
+    
+.card__inferior__call, .card__inferior__call-botao {
+    padding: 1em;
+    background-color: var(--laranja);
+    border-radius: 8px;
+}
+
+.item2 {
+    background-color: var(--branco);
+    border: 1px solid var(--cinza-claro);
+}
+
+.item3 {
+    width: 81%;
+    background-color: var(--azul);
+    text-align: center;
+    color: var(--branco);
+}
+
+.card__inferior__tipo-call {
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil__foto {
+    width: 32px;
+    border-radius: 50%;
+}
+
